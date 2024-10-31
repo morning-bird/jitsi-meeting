@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "BwModelica";
+    src: url("https://gmschurch-assets-2.b-cdn.net/fonts/BwModelica-Regular.otf")
+        format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BwModelica";
+    src: url("https://gmschurch-assets-2.b-cdn.net/fonts/BwModelica-Bold.otf")
+        format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BwModelica";
+    src: url("https://gmschurch-assets-2.b-cdn.net/fonts/BWMODELICA-EXTRABOLD.OTF")
+        format("opentype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BwModelica";
+    src: url("https://gmschurch-assets-2.b-cdn.net/fonts/BWMODELICA-MEDIUM.OTF")
+        format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    font-family: "BwModelica", sans-serif;
+    font-size: 16px; /* Default Size */
+}
